@@ -1,3 +1,7 @@
+brew install pulseaudio
+brew services start pulseaudio
+pulseaudio --check -v
+
 xhost + 127.0.0.1
 
 docker run \

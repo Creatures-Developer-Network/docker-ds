@@ -23,4 +23,6 @@ RUN mkdir bin
 RUN export LD_LIBRARY_PATH=/home/ds/app && ./install.sh; exit 0
 RUN export LD_LIBRARY_PATH=/home/ds/app && ./install.sh; exit 0
 
+RUN rm libSDL-1.2.so*
+
 RUN apt-get remove -y rpm2cpio
