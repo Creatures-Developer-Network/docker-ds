@@ -1,7 +1,7 @@
-FROM i386/debian:latest
+FROM i386/debian:bullseye
 
 RUN apt-get update
-RUN apt-get -y install rpm2cpio bzip2 libxi6 libc6
+RUN apt-get -y install rpm2cpio bzip2 libxi6 libc6 binutils
 
 RUN mkdir -p /home/ds/app
 COPY ./app/ /home/ds/app/
