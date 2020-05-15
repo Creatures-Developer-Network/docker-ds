@@ -15,7 +15,3 @@ run `./launch-osx-xquartz.sh` after ensuring you have changed the settings to al
 # usage (vnc)
 
 run `launch-tightvnc-server-15-bit.sh` and login to VNC server: vnc://localhost:5901
-
-# Agents, Creatures and Worlds
-
-The initial agents are copied to ./data/My Agents. The launch script will automatically mount these so you can save your worlds, creatures and provie new agents
