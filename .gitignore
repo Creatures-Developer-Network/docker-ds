@@ -1,3 +1,7 @@
 app/*.rpm
 app/*.tar.bz2
 
+data/*
+
+zzz_gamestart_login.cos
+offlinelogin.c16
