@@ -1,6 +1,6 @@
-brew install pulseaudio
-brew services start pulseaudio
-pulseaudio --check -v
+#!/bin/bash
+
+./prepare.sh
 
 xhost + 127.0.0.1
 
@@ -12,4 +12,7 @@ docker run \
 -e INSTALL_DEST=/home/ds/app \
 -e BIN_DEST=/home/ds/app/bin \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
+-v $PWD/data:/root/.dockingstation \
 dockerds /home/ds/app/bin/dockingstation nocheck
+
+./save.sh
