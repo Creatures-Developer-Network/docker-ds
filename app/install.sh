@@ -1,0 +1,1 @@
+REALLY_RUN_AS_ROOT=1 TERM=xterm-256color LD_LIBRARY_PATH=/home/ds/app/usr/lib INSTALL_DEST=/home/ds/app BIN_DEST=/home/ds/app/bin ./tmp/dockingstation_195_64/dstation-install
